@@ -1,1 +1,36 @@
-<h1>Hello There</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Grind</title>
+    <link rel="stylesheet" href="./assets/scss/main.css"></link>
+</head>
+<body id="body" class="body">
+    <div class="container">
+        <header>
+            <h1 class="header-text">LARGEBUCK$ COFFEE</h1>
+            <nav class="nav">
+                <a class="link" href="?day=1">Monday</a>
+                <a class="link" href="?day=2">Tuesday</a>
+                <a class="link" href="?day=3">Wednesday</a>
+                <a class="link" href="?day=4">Thursday</a>
+                <a class="link" href="?day=5">Friday</a>
+                <a class="link" href="?day=6">Saturday</a>
+                <a class="link" href="?day=0">Sunday</a>
+            </nav>
+        </header>
+        <section id="main_container" class="content-container">
+            <p id="day_of_week" class="day-of-week-text"></p>
+            <div class="coffee">
+                <!-- <div class="coffee__img-container"> -->
+                    <img id="coffee_of_the_day" class="coffee__img"/>
+                <!-- </div> -->
+                <p id="coffe_of_the_day_description" class="coffee__description"></p>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
+<script src="./assets/js/script.js"></script>
